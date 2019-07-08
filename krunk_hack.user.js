@@ -617,7 +617,7 @@ class WallHack extends Module {
 class Krunkbot {
     constructor() {
         this.modules = [];
-        this.values='Krunkerio.org<hr>Krunkerio.net';
+        this.values='Krunkerio.ga<hr>Krunker Hack';
     }
     init() {
         this.modules.push(new Aimbot());
