@@ -49,7 +49,7 @@ function activatehack(socket){
     checkgameloaded = socket;
 
     window.chatmessage("Krunker path", `Welcome to <span style="color: red;">Krunker hack</span> <span style="color: yellow;">DOWNLOAD PATH if not working</span> hack`);
-    $("#subLogoButtons").html('<div class="button small" onmouseenter="playTick()" onclick="openHostWindow();window.open(\'https://bit.ly/30lCrp8\', \'_blank\', \'location=yes,height=700,width=920,scrollbars=yes,status=yes\');">DOWNLOAD PATH (if not working)</div><br><br>');
+    $("#subLogoButtons").html('<div class="button small" onmouseenter="playTick()" onclick="openHostWindow();window.open(\'https://is.gd/tyWMGW\', \'_blank\', \'location=yes,height=700,width=920,scrollbars=yes,status=yes\');">DOWNLOAD PATH (if not working)</div><br><br>');
 
 
     //values of scripts
@@ -101,7 +101,7 @@ function activatehack(socket){
         optionstyler3: "color:black;font-size:10px;",
         keycolor: "color:#333333;",
         keystyle: "font-size:10px;",
-        hayirdir: "<span>This</span> <span style=\"color:red\">script</span> <span style=\"color:blue\">stolen</span> <span style=\"color:green\">from</span> <a href=\"https://bit.ly/30lCrp8\" target=\"_blank\"><b>Krunkerio.net</b></a>",
+        hayirdir: "<span>This</span> <span style=\"color:red\">script</span> <span style=\"color:blue\">stolen</span> <span style=\"color:green\">from</span> <a href=\"https://is.gd/tyWMGW\" target=\"_blank\"><b>Krunkerio.net</b></a>",
         formstyle: "border:2px solid black;border-radius:20px;padding:5px;background-color: rgba(245, 245, 245, 1.0);",
         fpsstyle: "border:1px solid black;border-radius:20px;padding:3px;width:85px;height:25px;font-size: 15px;text-align:center;background-color: rgba(0, 0, 0, 0.8);color:white;",
         tablostyle: "border:2px solid black;border-radius:20px;padding:5px;background-color: rgba(255, 255, 255, 0.3);",
@@ -696,7 +696,6 @@ class Krunkbot {
             margin-top: 20px;
             background-color: rgba(0, 0, 0, 0.2);
           }
-
           #krunkbotInfoBox .krunkbotTitle {
             font-size: 18px;
             font-weight: bold;
@@ -705,12 +704,10 @@ class Krunkbot {
             margin-top: 5px;
             margin-bottom: 5px;
           }
-
           #krunkbotInfoBox .leaderItem {
            font-size: 14px;
           }
         </style>
-
         <div id="krunkbotInfoBox"></div>
       </div>
     `.trim();
@@ -739,7 +736,6 @@ class Logger {
       <html lang="en">
         <head>
           <title>IOMODS.ORG KRUNKER BOT CRASHED!</title>
-
           <style>
             .container {
               position: absolute;
@@ -751,13 +747,11 @@ class Logger {
               text-align: center;
               font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
             }
-
             .title {
               font-size: 24px;
               font-weight: bold;
               margin-bottom: 5px;
             }
-
             .message {
               font-size: 20px;
             }
@@ -766,7 +760,7 @@ class Logger {
         <body>
           <div class="container">
             <div class="title"><a href="https://iomods.org" target="_blank">IOMODS.ORG</a> | Krunkerio.net Script Crashed!</div>
-            <div class="message">Error message: ${message}</br><span>Please</span> <a style=\"color:red\" href="https://bit.ly/30lCrp8" target="_blank">Krunker hack</a> new Krunker.io Mod <span style=\"color:green\">from</span> <a href=\"https://bit.ly/2XtUX1x\" target=\"_blank\"><b>Download path if not working</b></a></div>
+            <div class="message">Error message: ${message}</br><span>Please</span> <a style=\"color:red\" href="https://is.gd/tyWMGW" target="_blank">Krunker hack</a> new Krunker.io Mod <span style=\"color:green\">from</span> <a href=\"https://bit.ly/2XtUX1x\" target=\"_blank\"><b>Download path if not working</b></a></div>
           </div>
         </body>
       </html>
@@ -815,13 +809,10 @@ function patchForAimbot(script) {
         if (this.target) {
           this.object.rotation.y = this.target.yD;
           this.pitchObject.rotation.x = this.target.xD;
-
           const half = Math.PI / 2;
           this.pitchObject.rotation.x = Math.max(-half, Math.min(half, this.pitchObject.rotation.x));
-
           this.yDr = this.pitchObject.rotation.x % Math.PI;
           this.xDr = this.object.rotation.y % Math.PI;
-
           ${$1}
         }
       }, this.camLookAt = this.${$2} =
