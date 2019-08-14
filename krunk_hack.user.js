@@ -269,7 +269,7 @@ class Krunker {
         code = code.replace(/this\.newGeo=function\(t\){/g, '$& return;');
         code = code.replace(/;if\(L\|\|E.singlePlayer\)/g, ';if (true)');
         code = code.replace(/\.1<=((\w+)\.avgSpn)/g, 'Infinity < $1');
-        code = code.replace(/CLICK TO PLAY/g, 'IOMODS.ORG CLICK TO PLAY');
+        code = code.replace(/CLICK TO PLAY/g, 'KRUNKERIO.GA CLICK TO PLAY');
 
         code += `
             (function() {
